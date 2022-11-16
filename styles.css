@@ -23,17 +23,11 @@ html {
 /* Small screen */
 
 body {
+    background-color: var(--color-background);
     color: var(--color-letter);
     font-size: 13px;
     overflow-x: hidden;
     font-family: 'Nunito', sans-serif;
-    background: linear-gradient(135deg,  #0e002f 0%, #03484c 100%);
-    background-position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 body::-webkit-scrollbar {
@@ -48,6 +42,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container {
+    background: linear-gradient(135deg,  #0e002f 0%, #03484c 100%);
+    background-position: fixed;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     padding-bottom: 10px;
     display: flex;
     flex-flow: column wrap;
@@ -55,8 +55,6 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
     align-items: center;
 }
-
-
 
 
 /* Header */
