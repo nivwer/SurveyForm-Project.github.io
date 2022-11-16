@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <title>Survey Form (Project)</title>
         <script src="https://kit.fontawesome.com/fe8afb53aa.js" crossorigin="anonymous"></script>
@@ -13,9 +14,10 @@
     <body>
         <div class="container">
             <!--Header-->
-            <header class="header">
+            <header class="header" data-aos="zoom-out">
                 <h1 class="header-logo" id="title">Survey Form</h1>
-                <p class="header-description" id="description">This survey aims to find out about people who are interested in programming</p>
+                <p class="header-description" id="description">This survey aims to find out about people who are interested in <span>programming</span></p>
+                <a href="#survey-form"><span></span></a>
             </header>
             <!--Form-->
             <form class="survey-form form" id="survey-form">
@@ -152,5 +154,9 @@
                 </div>
             </form>
         </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
