@@ -1,12 +1,13 @@
 :root {
-    --color-letter: #fcf7ff;
+    --color-letter: #c6c6c6;
     --color-letter2: #020305;
-    --color-background: #050012;
-    --color-background2:#11141f;
-    --color-background3:#191e2d;
-    --color-primary1: #45937f;
-    --color-primary2: #0e002f;
-    --color-primary3: #4ca18c;
+    --color-background: #000000;
+    --color-background2:#090909;
+    --color-background3:#090909;
+    
+    --color-primary1: #909090;
+    --color-primary2: #090909;
+    --color-primary3: #626262;
 }
 
 
@@ -32,7 +33,7 @@ body {
 
 body::-webkit-scrollbar {
     width: 9px;
-    background: linear-gradient(135deg,  #0e002f -100%, #03484c 60%);
+    background: var(--color-background);
 }
 
 body::-webkit-scrollbar-thumb {
@@ -42,7 +43,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container {
-    background: linear-gradient(135deg,  #0e002f 0%, #03484c 100%);
+    background: var(--color-background);
     background-position: fixed;
     width: 100vw;
     background-repeat: no-repeat;
@@ -131,7 +132,7 @@ body::-webkit-scrollbar-thumb {
 /* Form */
 
 .survey-form {
-    background-color: var(--color-background);
+    background-color: var(--color-backgroun);
     max-width: 500px;
     margin: 70px auto;
     padding: 2.4em 2em 2em 2em;
